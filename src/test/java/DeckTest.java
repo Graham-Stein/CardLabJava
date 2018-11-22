@@ -28,4 +28,13 @@ public class DeckTest {
         deck.populateDeck();
         assertEquals(52, deck.getDeckOfCards().size());
     }
+
+    @Test
+    public void shuffleDeckReturns52Cards() {
+        deck.populateDeck();
+        deck.shuffleDeck();
+        assertEquals(52, deck.getDeckOfCards().size());
+    }
+
+
 }
