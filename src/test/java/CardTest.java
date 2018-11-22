@@ -7,7 +7,7 @@ public class CardTest {
 
     @Before
     public void before(){
-        card = new Card(SuitType.HEARTS, Rank.JACK);
+        card = new Card(SuitType.HEARTS, RankType.JACK);
     }
 
     @Test
@@ -17,12 +17,12 @@ public class CardTest {
 
     @Test
     public void canGetRank(){
-        assertEquals(Rank.JACK, card.getRank());
+        assertEquals(RankType.JACK, card.getRank());
     }
 
     @Test
     public void queenHasValue10 (){
-        card = new Card(SuitType.HEARTS, Rank.JACK);
-        assertEquals(10, card.getValueFromEnum());
+        card = new Card(SuitType.HEARTS, RankType.JACK);
+        assertEquals(11, card.getValueFromEnum());
     }
 }
