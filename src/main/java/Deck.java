@@ -32,4 +32,8 @@ public class Deck {
     public void shuffleDeck() {
         Collections.shuffle(this.deckOfCards);
     }
+
+    public Card dealCard() {
+        return this.deckOfCards.remove(0);
+    }
 }

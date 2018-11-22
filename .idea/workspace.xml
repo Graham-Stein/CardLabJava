@@ -21,7 +21,7 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3923579">
+    <splitter split-orientation="horizontal" split-proportion="0.5358807">
       <split-first>
         <leaf>
           <file leaf-file-name="Card.java" pinned="false" current-in-tab="false">
@@ -42,8 +42,8 @@
           <file leaf-file-name="Deck.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/Deck.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="350">
-                  <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+                <state relative-caret-position="292">
+                  <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#118#119#0" expanded="true" />
@@ -56,6 +56,8 @@
                     <element signature="e#462#463#0" expanded="true" />
                     <element signature="e#730#731#0" expanded="true" />
                     <element signature="e#755#756#0" expanded="true" />
+                    <element signature="e#814#815#0" expanded="true" />
+                    <element signature="e#856#857#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -108,8 +110,8 @@
           <file leaf-file-name="DeckTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/DeckTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="333">
-                  <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+                <state relative-caret-position="237">
+                  <caret line="43" selection-start-line="43" selection-end-line="43" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#187#188#0" expanded="true" />
@@ -436,8 +438,8 @@
         <option value="$PROJECT_DIR$/src/main/java/RankType.java" />
         <option value="$PROJECT_DIR$/src/main/java/Card.java" />
         <option value="$PROJECT_DIR$/src/test/java/CardTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DeckTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Deck.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DeckTest.java" />
       </list>
     </option>
   </component>
@@ -515,7 +517,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DeckTest.shuffleDeckReturns52Cards">
+  <component name="RunManager" selected="JUnit.DeckTest.canDealCard">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -544,6 +546,23 @@
       <option name="MAIN_CLASS_NAME" value="DeckTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DeckTest.canDealCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cards_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DeckTest" />
+      <option name="METHOD_NAME" value="canDealCard" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -630,9 +649,11 @@
       <item itemvalue="JUnit.DeckTest" />
       <item itemvalue="JUnit.DeckTest.canPopulateDeck" />
       <item itemvalue="JUnit.DeckTest.shuffleDeckReturns52Cards" />
+      <item itemvalue="JUnit.DeckTest.canDealCard" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DeckTest.canDealCard" />
         <item itemvalue="JUnit.DeckTest.shuffleDeckReturns52Cards" />
         <item itemvalue="JUnit.DeckTest.canPopulateDeck" />
         <item itemvalue="JUnit.DeckTest" />
@@ -654,15 +675,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CardTest - 2018.11.22 at 14h 11m 08s.xml">
-      <configuration name="CardTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CardTest - 2018.11.22 at 14h 11m 24s.xml">
-      <configuration name="CardTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeckTest - 2018.11.22 at 14h 20m 12s.xml">
-      <configuration name="DeckTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DeckTest - 2018.11.22 at 14h 32m 26s.xml">
       <configuration name="DeckTest" configurationId="JUnit" />
     </history-entry>
@@ -678,6 +690,21 @@
     <history-entry file="DeckTest_canPopulateDeck - 2018.11.22 at 14h 49m 40s.xml">
       <configuration name="DeckTest.canPopulateDeck" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DeckTest_shuffleDeckReturns52Cards - 2018.11.22 at 15h 10m 51s.xml">
+      <configuration name="DeckTest.shuffleDeckReturns52Cards" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeckTest_shuffleDeckReturns52Cards - 2018.11.22 at 15h 12m 02s.xml">
+      <configuration name="DeckTest.shuffleDeckReturns52Cards" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeckTest_canDealCard - 2018.11.22 at 15h 17m 49s.xml">
+      <configuration name="DeckTest.canDealCard" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeckTest_canDealCard - 2018.11.22 at 15h 22m 00s.xml">
+      <configuration name="DeckTest.canDealCard" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeckTest_canDealCard - 2018.11.22 at 15h 22m 40s.xml">
+      <configuration name="DeckTest.canDealCard" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -691,7 +718,7 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.328877" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.328877" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
@@ -704,7 +731,7 @@
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.39973262" />
+      <window_info active="true" anchor="bottom" id="Debug" order="8" visible="true" weight="0.39973262" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
@@ -718,7 +745,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Deck.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/DeckTest.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -776,10 +817,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DeckTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Deck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        <state relative-caret-position="292">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#118#119#0" expanded="true" />
@@ -792,20 +847,8 @@
             <element signature="e#462#463#0" expanded="true" />
             <element signature="e#730#731#0" expanded="true" />
             <element signature="e#755#756#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DeckTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
           </folding>
         </state>
       </provider>
